@@ -1,0 +1,93 @@
+/* Table border  */
+.col-1,.col-2{
+    border: 1px solid black;
+}
+
+/* Display Error message in Red color */
+.errorFname,.errorLname,.errorAddress,.errorPin
+,.errorGender,#checkboxSpan,.errorState,.errorCountry{
+    color: red;
+    font-weight: 600;
+    
+}
+
+/* Right side error padding */
+.errorLname{
+      padding-left: 50px;
+}
+.errorPin{
+    padding-left: 70px;
+}
+.errorCountry{
+    padding-left: 90px;
+}
+
+/* Form label bold  */
+.Fnameheading,.Lnameheading,.Addressheading,.pinCodeheading
+,.Genderheading,.Foodheading,.Stateheading,.countryheading{
+    font-size: 120%;
+    font-weight: 600;
+}
+
+/* Right side heading padding */
+.Lnameheading{
+      padding-left: 120px;
+ }
+.pinCodeheading{
+    padding-left: 140px;
+}
+.countryheading{
+    padding-left: 165px;
+}
+
+/* margin */
+.firstname,#address,#stateId{
+    margin-right: 25px;
+}
+
+div#outerContainer {
+    margin-left: 350px;
+    margin-top: 20px;
+    background-color: rgb(159, 179, 238);
+    width: 50%;
+    padding-left: 150px;
+}
+
+ input[value="male"]{
+    margin-left: 30px;
+}
+
+ .radiobtn,.checkbx{
+    padding-left: 10px;
+}
+
+/* Submit button */
+input[type="button"]{
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 10px;
+} 
+
+/* Form title style */
+#formTitle{
+    padding-left: 95px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    font-size: 150%;
+    font-weight: 900;
+    color: purple;
+}
+
+/* Table style */
+#SecondDiv{
+    display: none;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 10px;
+}
+
+/* Table heading padding and display */
+.details{
+    padding-left: 60px;
+    display: none;
+}
